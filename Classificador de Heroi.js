@@ -1,4 +1,4 @@
-const heroi = { //estrutura de repetição
+let heroi = {
 nome: "Thor", //variáveis
 xp: 9999999
 };
@@ -24,7 +24,7 @@ if(heroi.xp >= 8001 && heroi.xp <= 9000)
 if(heroi.xp >= 9001 && heroi.xp <= 10000)
     heroi.status = "Imortal"
 
-else if (heroi.xp >= 10001) //estrutura de decisão
+else if (heroi.xp >= 10001) //Else if (estrutura de decisão)
     heroi.status = "Radiante"
 
 console.log("O herói " + heroi.nome + " está no nível de: " + heroi.status);
